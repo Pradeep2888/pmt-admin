@@ -14,8 +14,8 @@ import './style.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
     <PersistGate loading={<div>Loading...</div>} persistor={persistor}>
-      {/* <BrowserRouter> */}
-      <BrowserRouter basename="/project-management-admin" >
+      <BrowserRouter>
+      {/* <BrowserRouter basename="/project-management-admin" > */}
         <div><Toaster /></div>
         <MainRoute />
       </BrowserRouter>
