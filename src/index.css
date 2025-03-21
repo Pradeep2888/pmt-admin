@@ -1,0 +1,22 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #3954A5;
+  overflow: hidden;
+}
+
+button{
+  border: none;
+}
+button:focus-within{
+  border: none;
+}
+
+
